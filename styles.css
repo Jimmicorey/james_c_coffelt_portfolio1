@@ -8,6 +8,8 @@ body {
 img {
     width: 100%;
     border-radius: 50%;
+    border: 10px dashed blue;
+    padding: 5px;
 }
 
 main h2 {
@@ -19,6 +21,7 @@ main h2 {
 p {
     margin-bottom: 5px;
     font-size: 20px;
+    padding: 25px;
 }
 
 
