@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    padding-bottom: 25px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    padding: 0 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.group h2 {
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+/* <-- HEADER & NAVIGATION MENU --> */
+header {
+    background-color: rgb(6, 89, 255);
+}
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+header h2 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+#menu li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* <-- SOCIAL LINKS --> */
+#social ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 50px 0;
+}
+#social ul li a {
+    padding: 10px;
+    color: rgb(10, 0, 88);
+    text-decoration: none;
+}
+
+
+/* <-- PORTFOLIO --> */
+.project_box {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+/* <-- CONTACT FORM --> */
+form input, 
+form textarea {
+    width: 100%;
+}
+fieldset {
+    border: 0;
+}
+form label {
+    display: block;
+    margin: 10px 0;
+    font-size: 25px;
+}
+form input[type=text], 
+form input[type=email] {
+    width: 100%;
+    margin-bottom: 30px;
+    color:  #000;
+    font-size: 20px;
+    padding: 5px;
+}
+form textarea {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+    padding: 5px;
+}
+form button {
+    color: #fff;
+    background-color: blue;
+    font-size: 20px;
+    margin: 10px 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* <-- FOOTER --> */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px 0;
+    background-color: rgb(6, 89, 255);
+}
+footer p {
+    font-size: 20px;
+    color: rgb(222, 233, 255);
+    padding-bottom: 5px;
+}
+
+/* <-- DESKTOP STYLES --> */
+@media all and (min-width: 768px) {
+  
+}
+
+
+
+
+
+
