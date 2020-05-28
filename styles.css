@@ -12,10 +12,13 @@ img {
     padding: 5px;
 }
 
-main h2 {
+h2 {
     font-size: 30px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    background-color: rgb(11, 0, 163);
+    padding: 10px 0 10px 0;
+    color: #fff;
 }
 
 p {
@@ -41,7 +44,6 @@ p {
 
 #home, #portfolio, #contact {
     margin: 50px 0 100px 0;
-    padding: 0 10px;
 }
 
 .project_box h3, .project_box p  {
@@ -57,7 +59,6 @@ p {
     background-color: rgb(6, 89, 255);
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px;
 }
 
 #about p {
