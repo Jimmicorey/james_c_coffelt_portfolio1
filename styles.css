@@ -43,15 +43,18 @@ p {
 }
 
 #home, #portfolio, #contact {
-    margin: 50px 0 100px 0;
+    margin: 50px 0 100px;
 }
 
 .project_box h3, .project_box p  {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2px;
 }
 
 .project_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 25px;
 }
 
@@ -67,7 +70,7 @@ p {
 
 #contact {
     background-color: rgb(6, 89, 255);
-    padding: 20px 0 30px 0;
+    padding: 0 0 30px 0;
     margin: 120px 0;
     color: rgb(255, 255, 255);
 }
@@ -110,7 +113,7 @@ header nav ul li a {
 #social ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0 50px 0 40px;
 }
