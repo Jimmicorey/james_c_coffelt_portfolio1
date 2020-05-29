@@ -76,6 +76,7 @@ p {
 }
 
 
+
 /* <-- HEADER & NAVIGATION --> */
 header {
     background-color: rgb(6, 89, 255);
@@ -108,6 +109,19 @@ header nav ul li a {
     text-decoration: none;
     padding: 0 20px 0 0;
 }
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: rgb(251, 255, 0);
+}
+a:hover {
+    color: rgb(255, 153, 0);
+}
+a:active {
+    color: rgb(127, 0, 153);
+}
+
 
 /* <-- SOCIAL MEDIA LINKS --> */
 #social ul {
@@ -122,6 +136,23 @@ header nav ul li a {
     margin: 5px;
     color: rgb(255, 255, 255);
 }
+#social ul li a:link {
+    color: rgb(255, 255, 255);
+}
+#social ul li a:visited {
+    color: rgb(251, 255, 0);
+}
+#social ul li a:hover {
+    color: rgb(255, 153, 0);
+}
+#social ul li a:active {
+    color: rgb(127, 0, 153);
+}
+
+
+
+
+
 
 
 /* <-- FOOTER --> */
