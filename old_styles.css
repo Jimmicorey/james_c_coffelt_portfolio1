@@ -41,21 +41,24 @@
     margin: 10px;
 } */
 
-#home, #portfolio, #contact {
-    margin: 50px 0 100px;
-}
 
-.project_box h3, .project_box p  {
+/* .project_box h3, .project_box p  {
     text-align: center;
     margin-bottom: 2px;
-}
+} */
 
-.project_box {
+/* .project_box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 25px;
+} */
+
+
+#home, #portfolio, #contact {
+    margin: 50px 0 100px;
 }
+
 
 #about, #contact {
     background-color: rgb(6, 89, 255);
@@ -81,34 +84,34 @@
     background-color: rgb(6, 89, 255);
     margin-bottom: 30px;
     display: block;
-} */
-/* header h1 {
+}
+header h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin: 0;
     padding: 10px;
     font-family: 'Permanent Marker', cursive;
     font-size: 48px;
-} */
-/* header nav {
+}
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-} */
-/* header nav ul {
+}
+header nav ul {
     display: flex;
     flex-direction: row;
     padding-bottom: 0;
-} */
-/* header nav ul li {
+}
+header nav ul li {
     list-style-type: none;
-} */
-/* header nav ul li a {
+}
+header nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 20px 0 0;
-} */
-/* a:link {
+}
+a:link {
     color: rgb(255, 255, 255);
 }
 a:visited {
