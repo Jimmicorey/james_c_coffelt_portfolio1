@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 img {
     width: 100%;
-    border-radius: 50%;
-    border: 10px dashed blue;
+    border: 10px dashed rgb(11, 0, 163);
     padding: 5px;
+    border-radius: 50%;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 25px;
 }
 
 h2 {
@@ -20,13 +31,6 @@ h2 {
     padding: 10px 0 10px 0;
     color: #fff;
 }
-
-p {
-    margin-bottom: 5px;
-    font-size: 20px;
-    padding: 25px;
-}
-
 
 .wrapper {
     width: 100%;
@@ -42,70 +46,38 @@ p {
     margin: 10px;
 }
 
-#home, #portfolio, #contact {
-    margin: 50px 0 100px;
-}
-
-.project_box h3, .project_box p  {
-    text-align: center;
-    margin-bottom: 2px;
-}
-
-.project_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 25px;
-}
-
-#about, #contact {
-    background-color: rgb(6, 89, 255);
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-#about p {
-    text-align: left;
-}
-
-#contact {
-    background-color: rgb(6, 89, 255);
-    padding: 0 0 30px 0;
-    margin: 120px 0;
-    color: rgb(255, 255, 255);
-}
-
-
-
-/* <-- HEADER & NAVIGATION --> */
+/* <---HEADER & NAVIGATION---> */
 header {
-    background-color: rgb(6, 89, 255);
+    background-color: rgb(11, 0, 163);
     margin-bottom: 30px;
-    display: block;
 }
+/* TITLE LOGO */
 header h1 {
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
     font-family: 'Permanent Marker', cursive;
     font-size: 48px;
 }
+
+/* NAVIGATION BAR */
 header nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+/* SITE MENU LINKS */
 header nav ul {
     display: flex;
     flex-direction: row;
-    padding-bottom: 0;
+    padding-bottom: 5px;
 }
+/* LINK STYLING & STATES */
 header nav ul li {
     list-style-type: none;
 }
 header nav ul li a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 20px 0 0;
 }
@@ -134,7 +106,9 @@ a:active {
 #social ul li a {
     text-decoration: none;
     margin: 5px;
-    color: rgb(255, 255, 255);
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 3px;
 }
 #social ul li a:link {
     color: rgb(255, 255, 255);
@@ -150,17 +124,13 @@ a:active {
 }
 
 
-
-
-
-
-
-/* <-- FOOTER --> */
-footer {
-    text-align: center;
+/* <-- CONTACT --> */
+#contact {
+    background-color: rgb(6, 89, 255);
+    padding: 0 0 30px 0;
+    margin: 120px 0;
+    color: rgb(255, 255, 255);
 }
-
-
 /* <-- CONTACT FORM --> */
 form input,
 form textarea {
@@ -201,39 +171,26 @@ form button {
 }
 
 
+/* <-- FOOTER --> */
+footer {
+    text-align: center;
+}
 
 
-/* <-- DESKTOP STYLE --> */
+/* HEADER & NAVIGATION - DESKTOP STYLES */
 @media all and (min-width: 768px) {
     header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
     }
 
     header h1 {
-        margin: 10px 0 10px 10px;
-        padding-top: 10px;
-        font-size: 40px;
+        margin: 14px 0 14px 14px;
+        padding-top: 4px;
+        font-size: 42px;
     }
 
     header nav {
-        margin-top: 20px;
-        font-size: 25px;
+        margin-top: 15px;
     }
-
-    .wrapper {
-        width: 100%;
-        margin: auto;
-    }
-
-    .group {
-        flex-direction: row;
-    }
-
-    .desk_column {
-        flex-direction: column;
-        margin: 10px
-    }
-
 }
