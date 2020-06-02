@@ -28,14 +28,14 @@ h2 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     background-color: rgb(11, 0, 163);
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin-top: 0;
     color: #fff;
 }
 
 /* <-- HOME HEADING --> */
 #home h2 {
-    padding: 5px 60px;
+    padding: 10px 60px;
 }
 
 .wrapper {
@@ -107,13 +107,18 @@ a:active {
     padding: 20px 20px 40px;
 }
 
+/* <-- ABOUT ME IMAGE --> */
+#about_pic {
+    margin: 20px;
+}
 
-/* <-- PORTFOLIO --> */
+
+/* <-- PORTFOLIO SECTION --> */
 .item .project_box {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    padding-bottom: 150px;
+    padding-bottom: 155px;
     margin: 20px;
 }
 .project_box > h3, .project_box > p  {
@@ -128,7 +133,7 @@ a:active {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0 50px 0 40px;
+    padding: 30px 50px 20px 40px;
 }
 #social ul li a {
     text-decoration: none;
@@ -151,12 +156,12 @@ a:active {
 }
 
 
-/* <-- CONTACT --> */
+/* <-- CONTACT SECTION --> */
 #contact {
     background-color: rgb(6, 89, 255);
-    padding: 0 0 30px 0;
-    margin: 120px 0;
+    margin: 0;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* <-- CONTACT FORM --> */
 form input,
@@ -191,7 +196,7 @@ form button {
     color: blue;
     background-color: rgb(255, 255, 255);
     font-size: 20px;
-    margin: 10px 15px;
+    margin: 5px 15px 100px;
     padding: 5px 10px;
     border-radius: 10px;
     text-align: center;
